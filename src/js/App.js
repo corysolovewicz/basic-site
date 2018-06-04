@@ -11,11 +11,13 @@ import Image from 'grommet/components/Image';
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
+import Menu from 'grommet/components/Menu';
 
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub';
 import SocialMailIcon from 'grommet/components/icons/base/SocialMail';
 import SocialTwitterIcon from 'grommet/components/icons/base/SocialTwitter';
 import SocialBitcoinIcon from 'grommet/components/icons/base/SocialBitcoin';
+import Actions from 'grommet/components/icons/base/Actions';
 
 
 
@@ -29,9 +31,9 @@ export default class BasicApp extends Component {
 	      <Header splash={false}
 				  float={false}
 				  fixed={false}
-				  size='large'
-				  colorIndex='grey-4-a'>
-				  <Heading>
+				  size='small'
+				  colorIndex='light-2'>
+				  <Heading align='center'>
  						Cory Solovewicz
  				  </Heading>
 					  <Box flex={true}
@@ -39,6 +41,19 @@ export default class BasicApp extends Component {
 					    direction='row'
 					    responsive={false}>
 					  </Box>
+					  <Menu icon={<Actions />}
+      dropAlign={{"right": "right"}}>
+      <Anchor href='#'
+        className='active'>
+        First
+      </Anchor>
+      <Anchor href='#'>
+        Second
+      </Anchor>
+      <Anchor href='#'>
+        Third
+      </Anchor>
+    </Menu>
 				</Header>
 
 				<Hero background={<Image src='/img/code.0.jpg'
