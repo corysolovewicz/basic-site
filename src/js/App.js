@@ -64,12 +64,6 @@ export default class BasicApp extends Component {
           link={<Anchor href='#'
           primary={true}
           label='Link' />} />
-          				      <Card heading='Heading'
-          description='Hero description text.'
-          label='label'
-          link={<Anchor href='#'
-          primary={true}
-          label='Link' />} />
 				    </Box>
 				  </Box>
 				</Hero>
