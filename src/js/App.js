@@ -10,6 +10,7 @@ import Heading from 'grommet/components/Heading';
 import Image from 'grommet/components/Image';
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
+import Columns from 'grommet/components/Columns';
 
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub';
 import SocialMailIcon from 'grommet/components/icons/base/SocialMail';
@@ -31,7 +32,7 @@ export default class BasicApp extends Component {
 				  size='large'
 				  colorIndex='grey-4-a'>
 				  <Heading>
- 						Sample Heading
+ 						Cory Solovewicz
  				  </Heading>
 					  <Box flex={true}
 					    justify='end'
@@ -59,7 +60,7 @@ export default class BasicApp extends Component {
 
 				      </Heading>
 				      <Card heading='Heading'
-          description='Hero description text.'
+          description='Fullstack Developer and Crypto Enthusiast'
           label='label'
           link={<Anchor href='#'
           primary={true}
@@ -67,30 +68,48 @@ export default class BasicApp extends Component {
 				    </Box>
 				  </Box>
 				</Hero>
-
-        <Title>Title</Title>
         
-        <Headline strong={false} size='large'>
-  				Sample Headline
+        <Headline strong={false} size='medium' align='center'>
+  				
 				</Headline>
-
-        <p>Hello from a Grommet page!</p>
-        	<Anchor icon={<SocialGithubIcon size='large'/>}
+        	
+					<Columns size='small'
+					  justify='center'
+					  maxCount={4}
+					  masonry={false}>
+					  <Box align='center'
+					    pad='medium'
+					    margin='small'
+					    colorIndex='light-2'>
+					    <Anchor icon={<SocialGithubIcon size='large'/>}
   					label=''
   					href='https://github.com/corysolovewicz' />
-				        
-        	<Anchor icon={<SocialMailIcon size='large' />}
+					  </Box>
+					  <Box align='center'
+					    pad='medium'
+					    margin='small'
+					    colorIndex='light-2'>
+					    <Anchor icon={<SocialMailIcon size='large' />}
   					label=''
   					href='mailto:cory@solovewi.cz' />
-
-         	<Anchor icon={<SocialTwitterIcon size='large' />}
+					  </Box>
+					  <Box align='center'
+					    pad='medium'
+					    margin='small'
+					    colorIndex='light-2'>
+					    <Anchor icon={<SocialTwitterIcon size='large' />}
   					label=''
   					href='https://twitter.com/corysolovewicz' />
-				        
-				        
-         	<Anchor icon={<SocialBitcoinIcon size='large' />}
+					  </Box>
+					  <Box align='center'
+					    pad='medium'
+					    margin='small'
+					    colorIndex='light-2'>
+					    <Anchor icon={<SocialBitcoinIcon size='large' />}
   					label=''
   					href='bitcoin:1AWseegSxz66JMQGuvNyGbu7uSB6C9ZBMF' />
+					  </Box>
+					</Columns>
 
       </Box>
       </Box>
