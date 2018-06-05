@@ -12,6 +12,9 @@ import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
 import Menu from 'grommet/components/Menu';
+import Footer from 'grommet/components/Footer';
+import Paragraph from 'grommet/components/Paragraph';
+
 
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub';
 import SocialMailIcon from 'grommet/components/icons/base/SocialMail';
@@ -72,11 +75,11 @@ export default class BasicApp extends Component {
 				      pad='medium'>
 
 				      <Card heading='Solovewicz'
-          description='Fullstack Developer and Crypto Geek'
+          description='Fullstack Developer, Crypto Geek, And Contributor to Open Source'
           label='Cory'
-          link={<Anchor href='https://encrypt.fyi'
+          link={<Anchor href='mailto:cory@solovewi.cz'
           primary={true}
-          label='Privacy Pusher' />} />
+          label='Contact Me' />} />
 				    </Box>
 				  </Box>
 				</Hero>
@@ -122,9 +125,18 @@ export default class BasicApp extends Component {
   					href='bitcoin:1AWseegSxz66JMQGuvNyGbu7uSB6C9ZBMF' />
 					  </Box>
 					</Columns>
+      	</Box>
+      </Box>
+      			      <Footer justify='between'>
 
-      </Box>
-      </Box>
+      		  <Box direction='row'
+		    align='center'
+		    pad={{"between": "medium"}}>
+		    <Paragraph margin='none'>
+		      © {(new Date()).getFullYear()} Cory Solovewicz Labs
+		    </Paragraph>
+		  </Box>
+	  </Footer>
       </App>
     );
   }
