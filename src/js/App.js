@@ -34,7 +34,6 @@ export default class BasicApp extends Component {
 				  size='small'
 				  colorIndex='light-2'>
 				  <Heading align='center'>
- 						Cory Solovewicz
  				  </Heading>
 					  <Box flex={true}
 					    justify='end'
@@ -71,15 +70,13 @@ export default class BasicApp extends Component {
 				    <Box basis='1/2'
 				      align='start'
 				      pad='medium'>
-				      <Heading margin='none'>
 
-				      </Heading>
-				      <Card heading='Heading'
-          description='Fullstack Developer and Crypto Enthusiast'
-          label='label'
-          link={<Anchor href='#'
+				      <Card heading='Solovewicz'
+          description='Fullstack Developer and Crypto Geek'
+          label='Cory'
+          link={<Anchor href='https://encrypt.fyi'
           primary={true}
-          label='Link' />} />
+          label='Privacy Pusher' />} />
 				    </Box>
 				  </Box>
 				</Hero>
