@@ -1,0 +1,7 @@
+# Global GIT ignored files
+
+# ignore dist folder
+dist/
+
+# ignore node_modules folder
+node_modules/

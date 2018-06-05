@@ -56,7 +56,7 @@ export default class BasicApp extends Component {
     </Menu>
 				</Header>
 
-				<Hero background={<Image src='/img/code.0.jpg'
+				<Hero background={<Image src='/img/hexdump_genesis_block_cory_solovewicz.png'
 				  fit='cover'
 				  full={true} />}
 				  align={{"top": true}} 
