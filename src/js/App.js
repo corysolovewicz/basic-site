@@ -7,7 +7,7 @@ import Header from 'grommet/components/Header';
 import Box from 'grommet/components/Box'; 
 import Hero from 'grommet/components/Hero';
 import Heading from 'grommet/components/Heading';
-import Image from 'grommet/components/Image';
+import Image from 'grommet/components/Image'; s
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
@@ -122,7 +122,7 @@ export default class BasicApp extends Component {
 					    colorIndex='light-2'>
 					    <Anchor icon={<SocialBitcoinIcon size='large' />}
   					label=''
-  					href='bitcoin:1AWseegSxz66JMQGuvNyGbu7uSB6C9ZBMF' />
+  					href='bitcoin:3Cory9KTTFHP5Xk6tSdA2cv5vscfzGoFZG' />
 					  </Box>
 					</Columns>
       	</Box>
