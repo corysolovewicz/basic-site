@@ -122,7 +122,7 @@ export default class BasicApp extends Component {
 					    colorIndex='light-2'>
 					    <Anchor icon={<SocialBitcoinIcon size='large' />}
   					label=''
-  					href='bitcoin:3Cory9KTTFHP5Xk6tSdA2cv5vscfzGoFZG' />
+  					href='bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe' />
 					  </Box>
 					</Columns>
       	</Box>
