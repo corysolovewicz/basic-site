@@ -126,6 +126,9 @@ export default class BasicApp extends Component {
 					  </Box>
 					</Columns>
       	</Box>
+      	<Box align='center'>
+      	<p><strong>OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728</strong></p>
+				</Box>      
       </Box>
       			      <Footer justify='between'>
 
