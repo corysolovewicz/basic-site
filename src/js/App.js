@@ -7,7 +7,7 @@ import Header from 'grommet/components/Header';
 import Box from 'grommet/components/Box'; 
 import Hero from 'grommet/components/Hero';
 import Heading from 'grommet/components/Heading';
-import Image from 'grommet/components/Image'; s
+import Image from 'grommet/components/Image';
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
