@@ -45,15 +45,15 @@ export default class BasicApp extends Component {
 					  </Box>
 					  <Menu icon={<Actions />}
       dropAlign={{"right": "right"}}>
-      <Anchor href='#'
+      <Anchor href='https://github.com/corysolovewicz'
         className='active'>
-        First
+        My Github
       </Anchor>
-      <Anchor href='#'>
-        Second
+      <Anchor href='mailto:cory@solovewi.cz'>
+        My Email
       </Anchor>
-      <Anchor href='#'>
-        Third
+      <Anchor href='https://twitter.com/corysolovewicz'>
+        My Twitter
       </Anchor>
     </Menu>
 				</Header>
