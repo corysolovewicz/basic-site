@@ -21,6 +21,10 @@ To run this application, execute the following commands:
     ```
     $ NODE_ENV=production grommet pack
     ```
+    or
+    ```
+    $ npm run dist
+    ```
 
   4. Test and run linters:
 
