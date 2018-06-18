@@ -136,7 +136,7 @@ export default class BasicApp extends Component {
 		    align='center'
 		    pad={{"between": "medium"}}>
 		    <Paragraph margin='none'>
-		      © {(new Date()).getFullYear()} Cory Solovewicz
+		      Copyright © {(new Date()).getFullYear()} Cory Solovewicz
 		    </Paragraph>
 		  </Box>
 	  </Footer>
