@@ -23,11 +23,13 @@ To run this application, execute the following commands:
   3. Create the app distribution to be used by a back-end server
 
     ```
-    $ NODE_ENV=production grommet pack
+    $ npm run dist
+
     ```
     or
     ```
-    $ npm run dist
+    $ NODE_ENV=production grommet pack
+
     ```
 
   4. Test and run linters:
