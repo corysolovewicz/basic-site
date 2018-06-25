@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'; 
 
 
 import App from 'grommet/components/App';
 import Title from 'grommet/components/Title';
 import Headline from 'grommet/components/Headline'; 
-import Header from 'grommet/components/Header';
 import Box from 'grommet/components/Box'; 
 import Hero from 'grommet/components/Hero';
-import Heading from 'grommet/components/Heading';
 import Image from 'grommet/components/Image';
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
-import Menu from 'grommet/components/Menu';
 import Footer from 'grommet/components/Footer';
 import Paragraph from 'grommet/components/Paragraph';
 
@@ -22,8 +18,8 @@ import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub';
 import SocialMailIcon from 'grommet/components/icons/base/SocialMail';
 import SocialTwitterIcon from 'grommet/components/icons/base/SocialTwitter';
 import SocialBitcoinIcon from 'grommet/components/icons/base/SocialBitcoin';
-import Actions from 'grommet/components/icons/base/Actions';
 
+import Header from './Header'; 
 
 
 export default class BasicApp extends Component {
@@ -32,38 +28,8 @@ export default class BasicApp extends Component {
       <App centered={false} >
       <Box colorIndex='light-1' full={true} >
       <Box>
+      <Header />
 
-	      <Header splash={false}
-				  float={false}
-				  fixed={false}
-				  size='small'
-				  colorIndex='light-2'>
-				  <Heading align='center'>
- 				  </Heading>
-					  <Box flex={true}
-					    justify='end'
-					    direction='row'
-					    responsive={false}>
-					  </Box>
-					  <Menu icon={<Actions />}
-      dropAlign={{"right": "right"}}>
-      <Anchor href='https://github.com/corysolovewicz'
-        className='active'>
-        My Github
-      </Anchor>
-      <Anchor href='mailto:cory@solovewi.cz'>
-        My Email
-      </Anchor>
-      <Anchor href='https://twitter.com/corysolovewicz'>
-        My Twitter
-      </Anchor>
-      <Anchor>
-	      <Link to='/Test'>
-	      	Test
-	      </Link>
-      </Anchor>
-    </Menu>
-				</Header>
 
 				<Hero background={<Image src='/img/hexdump_genesis_block_cory_solovewicz.png'
 				  fit='cover'
