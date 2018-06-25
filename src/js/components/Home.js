@@ -10,8 +10,6 @@ import Image from 'grommet/components/Image';
 import Card from 'grommet/components/Card';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
-import Footer from 'grommet/components/Footer';
-import Paragraph from 'grommet/components/Paragraph';
 
 
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub';
@@ -20,7 +18,7 @@ import SocialTwitterIcon from 'grommet/components/icons/base/SocialTwitter';
 import SocialBitcoinIcon from 'grommet/components/icons/base/SocialBitcoin';
 
 import Header from './Header'; 
-
+import Footer from './Footer';
 
 export default class BasicApp extends Component {
   render() {
@@ -103,16 +101,7 @@ export default class BasicApp extends Component {
       	<p><strong>OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728</strong></p>
 				</Box>      
       </Box>
-      			      <Footer justify='between'>
-
-      		  <Box direction='row'
-		    align='center'
-		    pad={{"between": "medium"}}>
-		    <Paragraph margin='none'>
-		      Copyright © {(new Date()).getFullYear()} Cory Solovewicz
-		    </Paragraph>
-		  </Box>
-	  </Footer>
+      <Footer/>
       </App>
     );
   }
