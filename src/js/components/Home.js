@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'; 
+
 
 import App from 'grommet/components/App';
 import Title from 'grommet/components/Title';
@@ -54,6 +56,11 @@ export default class BasicApp extends Component {
       </Anchor>
       <Anchor href='https://twitter.com/corysolovewicz'>
         My Twitter
+      </Anchor>
+      <Anchor>
+	      <Link to='/Test'>
+	      	Test
+	      </Link>
       </Anchor>
     </Menu>
 				</Header>
