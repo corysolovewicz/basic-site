@@ -17,7 +17,7 @@ To run this application, execute the following commands:
    
     or
     
-    NODE_ENV=production grommet pack
+    $ NODE_ENV=production grommet pack
     
 
   3. Create the app distribution to be used by a back-end server
@@ -37,5 +37,5 @@ To run this application, execute the following commands:
    
     or
     
-    grommet check
+    $ grommet check
     
