@@ -8,8 +8,7 @@ import Menu from 'grommet/components/Menu';
 import Box from 'grommet/components/Box'; 
 import Actions from 'grommet/components/icons/base/Actions';
 
-
-const TestComponent = () => (
+const HeaderComponent = () => (
 	<Header splash={false}
 	  float={false}
 	  fixed={false}
@@ -43,4 +42,4 @@ const TestComponent = () => (
     </Header>
 )
 
-export default TestComponent
+export default HeaderComponent
