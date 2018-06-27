@@ -3,7 +3,7 @@ import Main from './Main'
 
 const App = () => (
   <div>
-      <Main />
+    <Main />
   </div>
 )
 
