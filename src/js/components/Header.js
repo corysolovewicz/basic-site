@@ -14,32 +14,32 @@ const HeaderComponent = () => (
 	  fixed={false}
 	  size='small'
 	  colorIndex='light-2'>
-	  <Heading align='center'>
-		  </Heading>
-		  <Box flex={true}
-		    justify='end'
-		    direction='row'
-		    responsive={false}>
-		  </Box>
-		  <Menu icon={<Actions />}
-      dropAlign={{"right": "right"}}>
-      <Anchor href='https://github.com/corysolovewicz'
-        className='active'>
-        My Github
-      </Anchor>
-      <Anchor href='mailto:cory@solovewi.cz'>
-        My Email
-      </Anchor>
-      <Anchor href='https://twitter.com/corysolovewicz'>
-        My Twitter
-      </Anchor>
-      <Anchor>
-	      <Link to='/Test'>
-	      	Test
-	      </Link>
-      </Anchor>
-    </Menu>
-    </Header>
+		<Heading align='center'>
+		</Heading>
+		<Box flex={true}
+		  justify='end'
+		  direction='row'
+		  responsive={false}>
+		</Box>
+		<Menu icon={<Actions />}
+		  dropAlign={{"right": "right"}}>
+			<Anchor href='https://github.com/corysolovewicz' 
+			  className='active'>
+				My Github
+			</Anchor>
+			<Anchor href='mailto:cory@solovewi.cz'>
+				My Email
+			</Anchor>
+			<Anchor href='https://twitter.com/corysolovewicz'>
+				My Twitter
+			</Anchor>
+			<Anchor>
+				<Link to='/Test'>
+					Test
+				</Link>
+			</Anchor>
+		</Menu>
+	</Header>
 )
 
 export default HeaderComponent

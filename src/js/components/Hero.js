@@ -22,7 +22,6 @@ const HeroComponent = () => (
 	    <Box basis='1/2'
 	      align='start'
 	      pad='medium'>
-
 	      <Card heading='Solovewicz'
 			description='Fullstack Developer, Crypto Geek, And Contributor to Open Source'
 			label='Cory'
