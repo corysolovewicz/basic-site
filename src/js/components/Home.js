@@ -22,56 +22,56 @@ export default class BasicApp extends Component {
   render() {
     return (
       <App centered={false} >
-      	<Box colorIndex='light-1' full={true} >
-      		<Box>
-      			<Header />
-      			<Hero />
-        		<Headline strong={false} size='medium' align='center'>
-				</Headline>
-				<Columns size='small'
-				  justify='center'
-				  maxCount={4}
-				  masonry={false}>
-				  <Box align='center'
-				    pad='medium'
-				    margin='small'
-				    colorIndex='light-2'>
-				    <Anchor icon={<SocialGithubIcon size='large'/>}
-					label=''
-					href='https://github.com/corysolovewicz' />
-				  </Box>
-				  <Box align='center'
-				    pad='medium'
-				    margin='small'
-				    colorIndex='light-2'>
-				    <Anchor icon={<SocialMailIcon size='large' />}
-					label=''
-					href='mailto:cory@solovewi.cz' />
-				  </Box>
-				  <Box align='center'
-				    pad='medium'
-				    margin='small'
-				    colorIndex='light-2'>
-				    <Anchor icon={<SocialTwitterIcon size='large' />}
-					label=''
-					href='https://twitter.com/corysolovewicz' />
-				  </Box>
-				  <Box align='center'
-				    pad='medium'
-				    margin='small'
-				    colorIndex='light-2'>
-				    <Anchor icon={<SocialBitcoinIcon size='large' />}
-					label=''
-					href='bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe' />
-				  </Box>
-				</Columns>
-      		</Box>
-      		<Box align='center'>
-      			<p><strong>OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728</strong></p>
-			</Box>
-		</Box>
-		<Footer/>
-	</App>
+        <Box colorIndex='light-1' full={true} >
+          <Box>
+            <Header />
+            <Hero />
+            <Headline strong={false} size='medium' align='center'>
+        </Headline>
+        <Columns size='small'
+          justify='center'
+          maxCount={4}
+          masonry={false}>
+          <Box align='center'
+            pad='medium'
+            margin='small'
+            colorIndex='light-2'>
+            <Anchor icon={<SocialGithubIcon size='large'/>}
+          label=''
+          href='https://github.com/corysolovewicz' />
+          </Box>
+          <Box align='center'
+            pad='medium'
+            margin='small'
+            colorIndex='light-2'>
+            <Anchor icon={<SocialMailIcon size='large' />}
+          label=''
+          href='mailto:cory@solovewi.cz' />
+          </Box>
+          <Box align='center'
+            pad='medium'
+            margin='small'
+            colorIndex='light-2'>
+            <Anchor icon={<SocialTwitterIcon size='large' />}
+          label=''
+          href='https://twitter.com/corysolovewicz' />
+          </Box>
+          <Box align='center'
+            pad='medium'
+            margin='small'
+            colorIndex='light-2'>
+            <Anchor icon={<SocialBitcoinIcon size='large' />}
+          label=''
+          href='bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe' />
+          </Box>
+        </Columns>
+          </Box>
+          <Box align='center'>
+            <p><strong>OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728</strong></p>
+      </Box>
+    </Box>
+    <Footer/>
+  </App>
     );
   }
 }

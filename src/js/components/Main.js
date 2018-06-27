@@ -9,12 +9,12 @@ import TestComponent from './TestComponent'
 // with /roster or /schedule. The / route will only match
 // when the pathname is exactly the string "/"
 const Main = () => (
-	<main>
-		<Switch>
-			<Route exact path='/' component={Home}/>
-			<Route path='/test' component={TestComponent}/>
-		</Switch>
-	</main>
+  <main>
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/test' component={TestComponent}/>
+    </Switch>
+  </main>
 )
 
 export default Main
