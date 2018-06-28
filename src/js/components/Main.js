@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
 
-import Home from './Home'
-import TestComponent from './TestComponent'
+import Home from './Home';
+import TestComponent from './TestComponent';
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -13,10 +13,10 @@ import TestComponent from './TestComponent'
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/test' component={TestComponent}/>
+      <Route exact path='/' component={Home} />
+      <Route path='/test' component={TestComponent} />
     </Switch>
   </main>
-)
+);
 
-export default Main
+export default Main;
