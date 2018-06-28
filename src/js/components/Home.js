@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import App from 'grommet/components/App';
-import Title from 'grommet/components/Title';
 import Headline from 'grommet/components/Headline';
 import Box from 'grommet/components/Box';
 import Anchor from 'grommet/components/Anchor';
@@ -24,52 +23,55 @@ export default class BasicApp extends Component {
           <Box>
             <Header />
             <Hero />
-            <Headline strong={false} size='medium' align='center'>
-        </Headline>
-        <Columns size='small'
-          justify='center'
-          maxCount={4}
-          masonry={false}>
-          <Box align='center'
-            pad='medium'
-            margin='small'
-            colorIndex='light-2'>
-            <Anchor icon={<SocialGithubIcon size='large'/>}
-          label=''
-          href='https://github.com/corysolovewicz' />
-          </Box>
-          <Box align='center'
-            pad='medium'
-            margin='small'
-            colorIndex='light-2'>
-            <Anchor icon={<SocialMailIcon size='large' />}
-          label=''
-          href='mailto:cory@solovewi.cz' />
-          </Box>
-          <Box align='center'
-            pad='medium'
-            margin='small'
-            colorIndex='light-2'>
-            <Anchor icon={<SocialTwitterIcon size='large' />}
-          label=''
-          href='https://twitter.com/corysolovewicz' />
-          </Box>
-          <Box align='center'
-            pad='medium'
-            margin='small'
-            colorIndex='light-2'>
-            <Anchor icon={<SocialBitcoinIcon size='large' />}
-          label=''
-          href='bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe' />
-          </Box>
-        </Columns>
+            <Headline strong={false} size='medium' align='center' />
+            <Columns size='small'
+              justify='center'
+              maxCount={4}
+              masonry={false}>
+              <Box align='center'
+                pad='medium'
+                margin='small'
+                colorIndex='light-2'>
+                <Anchor icon={<SocialGithubIcon size='large' />}
+                  label=''
+                  href='https://github.com/corysolovewicz' />
+              </Box>
+              <Box align='center'
+                pad='medium'
+                margin='small'
+                colorIndex='light-2'>
+                <Anchor icon={<SocialMailIcon size='large' />}
+                  label=''
+                  href='mailto:cory@solovewi.cz' />
+              </Box>
+              <Box align='center'
+                pad='medium'
+                margin='small'
+                colorIndex='light-2'>
+                <Anchor icon={<SocialTwitterIcon size='large' />}
+                  label=''
+                  href='https://twitter.com/corysolovewicz' />
+              </Box>
+              <Box align='center'
+                pad='medium'
+                margin='small'
+                colorIndex='light-2'>
+                <Anchor icon={<SocialBitcoinIcon size='large' />}
+                  label=''
+                  href='bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe' />
+              </Box>
+            </Columns>
           </Box>
           <Box align='center'>
-            <p><strong>OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728</strong></p>
-      </Box>
-    </Box>
-    <Footer/>
-  </App>
+            <p>
+              <strong>
+                OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728
+              </strong>
+            </p>
+          </Box>
+        </Box>
+        <Footer />
+      </App>
     );
   }
 }
