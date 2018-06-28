@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import App from 'grommet/components/App';
 import Title from 'grommet/components/Title';
-import Headline from 'grommet/components/Headline'; 
-import Box from 'grommet/components/Box'; 
+import Headline from 'grommet/components/Headline';
+import Box from 'grommet/components/Box';
 import Anchor from 'grommet/components/Anchor';
 import Columns from 'grommet/components/Columns';
 
@@ -12,7 +12,7 @@ import SocialMailIcon from 'grommet/components/icons/base/SocialMail';
 import SocialTwitterIcon from 'grommet/components/icons/base/SocialTwitter';
 import SocialBitcoinIcon from 'grommet/components/icons/base/SocialBitcoin';
 
-import Header from './Header'; 
+import Header from './Header';
 import Footer from './Footer';
 import Hero from './Hero';
 
