@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 import App from 'grommet/components/App';
 
-import Header from './Header'; 
+import Header from './Header';
 import Footer from './Footer';
 import Hero from './Hero';
 
@@ -19,8 +19,8 @@ const TestComponent = () => (
         <li>Test</li>
       </ul>
     </div>
-  <Footer />
-  </App> 
-)
+    <Footer />
+  </App>
+);
 
-export default TestComponent
+export default TestComponent;
