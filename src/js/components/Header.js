@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'; 
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from 'grommet/components/Header';
 import Heading from 'grommet/components/Heading';
 import Anchor from 'grommet/components/Anchor';
 import Menu from 'grommet/components/Menu';
-import Box from 'grommet/components/Box'; 
+import Box from 'grommet/components/Box';
 import Actions from 'grommet/components/icons/base/Actions';
 
 const HeaderComponent = () => (
@@ -14,16 +14,15 @@ const HeaderComponent = () => (
     fixed={false}
     size='small'
     colorIndex='light-2'>
-    <Heading align='center'>
-    </Heading>
+    <Heading align='center' />
     <Box flex={true}
       justify='end'
       direction='row'
-      responsive={false}>
-    </Box>
+      responsive={false} />
+
     <Menu icon={<Actions />}
-      dropAlign={{"right": "right"}}>
-      <Anchor href='https://github.com/corysolovewicz' 
+      dropAlign={{ right: 'right' }}>
+      <Anchor href='https://github.com/corysolovewicz'
         className='active'>
         My Github
       </Anchor>
@@ -40,6 +39,6 @@ const HeaderComponent = () => (
       </Anchor>
     </Menu>
   </Header>
-)
+);
 
-export default HeaderComponent
+export default HeaderComponent;
