@@ -5,3 +5,9 @@ dist/
 
 # ignore node_modules folder
 node_modules/
+
+# ignore .eslintcache
+.eslintcache
+
+# ignore test coverage cache
+coverage/

@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from '../../src/js/App';
+import App from '../../src/js/components/App';
 
 // needed because this:
 // https://github.com/facebook/jest/issues/1353
