@@ -17,6 +17,7 @@ const TestComponent = () => (
         <li>Just</li>
         <li>A</li>
         <li>Test</li>
+        <li>Weeee!</li>
       </ul>
     </div>
     <Footer />
