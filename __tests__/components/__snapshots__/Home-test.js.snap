@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<div
+  className="grommet grommetux-app"
+  lang="en-US"
+>
+  <div
+    className="grommetux-box grommetux-box--full grommetux-box--full-responsive grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-none grommetux-background-color-index-light-1 grommetux-background-color-index--light"
+    id={undefined}
+    onClick={undefined}
+    role={undefined}
+    style={Object {}}
+    tabIndex={undefined}
+  >
+    <div
+      className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-none"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}
+    >
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-none grommetux-box--flex-off"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}
+      >
+        <header
+          className="grommetux-box grommetux-box--direction-row grommetux-box--align-center grommetux-box--pad-horizontal-none grommetux-box--pad-vertical-none grommetux-box--pad-between-small grommetux-box--pad-between-thirds grommetux-background-color-index-light-2 grommetux-background-color-index--light grommetux-header grommetux-header--small"
+          id={undefined}
+          onClick={undefined}
+          role={undefined}
+          style={Object {}}
+          tabIndex={undefined}
+        >
+          <h1
+            className="grommetux-heading grommetux-heading--align-center"
+          />
+          <div
+            className="grommetux-box grommetux-box--direction-row grommetux-box--justify-end grommetux-box--flex grommetux-box--pad-none"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          />
+          <div
+            className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-none grommetux-menu grommetux-menu--column grommetux-menu--controlled grommetux-menu__control"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <button
+              aria-label="Open  Menu"
+              className="grommetux-button grommetux-button--plain"
+              disabled={false}
+              href={undefined}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              type="button"
+            >
+              <span
+                className="grommetux-button__icon"
+              >
+                <svg
+                  aria-label="actions"
+                  className="grommetux-control-icon grommetux-control-icon-actions grommetux-control-icon--responsive"
+                  height="24px"
+                  role="img"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                >
+                  <path
+                    d="M12,17.5 C15.0375661,17.5 17.5,15.0375661 17.5,12 C17.5,8.96243388 15.0375661,6.5 12,6.5 C8.96243388,6.5 6.5,8.96243388 6.5,12 C6.5,15.0375661 8.96243388,17.5 12,17.5 Z M12,6.5 L12,1 M12,23 L12,17.5 M1,12 L6.5,12 M17.5,12 L23,12 M4.4375,4.4375 L8.5625,8.5625 M15.4375,15.4375 L19.5625,19.5625 M19.5625,4.4375 L15.4375,8.5625 M8.5625,15.4375 L4.4375,19.5625"
+                    fill="none"
+                    stroke="#000"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </header>
+      </div>
+      <div
+        align={
+          Object {
+            "top": true,
+          }
+        }
+        className="grommetux-hero grommetux-hero--small grommetux-background-color-index--dark"
+      >
+        <div
+          className="grommetux-hero__background"
+        >
+          <img
+            className="grommetux-image grommetux-image--medium grommetux-image--cover grommetux-image--full"
+            src="/img/hexdump_genesis_block_cory_solovewicz.png"
+          />
+        </div>
+        <div
+          className="grommetux-hero__foreground"
+        >
+          <div
+            className="grommetux-box grommetux-box--direction-row grommetux-box--justify-center grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-none"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <div
+              className="grommetux-box grommetux-box--direction-column grommetux-box--align-end grommetux-box--responsive grommetux-box--basis-1-2 grommetux-box--pad-medium"
+              id={undefined}
+              onClick={undefined}
+              role={undefined}
+              style={Object {}}
+              tabIndex={undefined}
+            />
+            <div
+              className="grommetux-box grommetux-box--direction-column grommetux-box--align-start grommetux-box--responsive grommetux-box--basis-1-2 grommetux-box--pad-medium"
+              id={undefined}
+              onClick={undefined}
+              role={undefined}
+              style={Object {}}
+              tabIndex={undefined}
+            >
+              <div
+                className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-none grommetux-box--wrap grommetux-box--width-medium grommetux-box--size grommetux-card"
+                id={undefined}
+                onClick={undefined}
+                role={undefined}
+                style={Object {}}
+                tabIndex={undefined}
+              >
+                <div
+                  className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-medium grommetux-card__content"
+                  id={undefined}
+                  onClick={undefined}
+                  role={undefined}
+                  style={Object {}}
+                  tabIndex={undefined}
+                >
+                  <label
+                    className="grommetux-label grommetux-label--uppercase grommetux-label--margin-none grommetux-label--medium"
+                    htmlFor={undefined}
+                  >
+                    Cory
+                  </label>
+                  <h2
+                    className="grommetux-heading grommetux-heading--strong"
+                  >
+                    Solovewicz
+                  </h2>
+                  <p
+                    className="grommetux-paragraph grommetux-paragraph--large grommetux-paragraph--margin-medium"
+                  >
+                    Fullstack Developer, Crypto Geek, And Contributor to Open Source
+                  </p>
+                  <a
+                    aria-label={undefined}
+                    className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon grommetux-anchor--icon-label grommetux-anchor--primary"
+                    href="mailto:cory@solovewi.cz"
+                    onClick={[Function]}
+                  >
+                    <svg
+                      aria-label="link next"
+                      className="grommetux-control-icon grommetux-control-icon-link-next grommetux-control-icon--responsive"
+                      height="24px"
+                      role="img"
+                      version="1.1"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                    >
+                      <path
+                        d="M2,12 L22,12 M13,3 L22,12 L13,21"
+                        fill="none"
+                        stroke="#000"
+                        strokeWidth="2"
+                      />
+                    </svg>
+                    Contact Me
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="grommetux-headline grommetux-headline--medium grommetux-headline--align-center"
+      />
+      <div
+        className="grommetux-columns grommetux-columns--justify-center grommetux-columns--responsive grommetux-columns--small"
+      >
+        <div
+          className="grommetux-columns__column"
+        >
+          <div
+            className="grommetux-box grommetux-box--direction-column grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-medium grommetux-box--margin-small grommetux-background-color-index-light-2 grommetux-background-color-index--light"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <a
+              aria-label={undefined}
+              className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+              href="https://github.com/corysolovewicz"
+              onClick={[Function]}
+            >
+              <span
+                className="grommetux-anchor__icon"
+              >
+                <svg
+                  aria-label="social-github"
+                  className="grommetux-control-icon grommetux-control-icon-social-github grommetux-control-icon--large grommetux-control-icon--responsive"
+                  height="24px"
+                  role="img"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                >
+                  <path
+                    d="M11.9989871,1 C5.92550416,1 1,5.92482888 1,12.0003376 C1,16.8603395 4.15153934,20.9829338 8.52263728,22.4374904 C9.0729918,22.5387827 9.27355045,22.199116 9.27355045,21.9073943 C9.27355045,21.6467356 9.2640965,20.954572 9.25869425,20.0368642 C6.19899322,20.7013414 5.55342398,18.5620492 5.55342398,18.5620492 C5.0530403,17.2911692 4.33183953,16.9528531 4.33183953,16.9528531 C3.33309801,16.2708186 4.40747107,16.2843243 4.40747107,16.2843243 C5.51155652,16.3619816 6.09229872,17.4181221 6.09229872,17.4181221 C7.07348292,19.0988981 8.66714755,18.6133706 9.2938089,18.3317781 C9.39375058,17.6213819 9.67804414,17.1365297 9.99205009,16.86169 C7.54955646,16.5841493 4.98146045,15.6401056 4.98146045,11.4249977 C4.98146045,10.224347 5.41026428,9.24181221 6.11390773,8.47334172 C6.00046042,8.19512569 5.62297799,7.07618404 6.22195279,5.56220265 C6.22195279,5.56220265 7.14506277,5.26642929 9.24653918,6.68992296 C10.12373,6.44547101 11.0650726,6.32392032 12.0003376,6.31919335 C12.9349274,6.32392032 13.8755947,6.44547101 14.7541361,6.68992296 C16.8542619,5.26642929 17.7760214,5.56220265 17.7760214,5.56220265 C18.3763467,7.07618404 17.9988643,8.19512569 17.8860923,8.47334172 C18.5910863,9.24181221 19.0165137,10.224347 19.0165137,11.4249977 C19.0165137,15.6509101 16.444366,16.5807729 13.9944443,16.8529114 C14.3888087,17.192578 14.7406305,17.863808 14.7406305,18.890236 C14.7406305,20.3603241 14.7271248,21.5467939 14.7271248,21.9073943 C14.7271248,22.2018171 14.9256576,22.5441849 15.4834403,22.4368151 C19.8511618,20.9788821 23,16.8589889 23,12.0003376 C23,5.92482888 18.0744958,1 11.9989871,1"
+                    fill="#333"
+                    fillRule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+              
+            </a>
+          </div>
+          <div
+            className="grommetux-box grommetux-box--direction-column grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-medium grommetux-box--margin-small grommetux-background-color-index-light-2 grommetux-background-color-index--light"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <a
+              aria-label={undefined}
+              className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+              href="mailto:cory@solovewi.cz"
+              onClick={[Function]}
+            >
+              <span
+                className="grommetux-anchor__icon"
+              >
+                <svg
+                  aria-label="social-mail"
+                  className="grommetux-control-icon grommetux-control-icon-social-mail grommetux-control-icon--large grommetux-control-icon--responsive"
+                  height="24px"
+                  role="img"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                >
+                  <path
+                    d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+              
+            </a>
+          </div>
+          <div
+            className="grommetux-box grommetux-box--direction-column grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-medium grommetux-box--margin-small grommetux-background-color-index-light-2 grommetux-background-color-index--light"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <a
+              aria-label={undefined}
+              className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+              href="https://twitter.com/corysolovewicz"
+              onClick={[Function]}
+            >
+              <span
+                className="grommetux-anchor__icon"
+              >
+                <svg
+                  aria-label="social-twitter"
+                  className="grommetux-control-icon grommetux-control-icon-social-twitter grommetux-control-icon--large grommetux-control-icon--responsive"
+                  height="24px"
+                  role="img"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                >
+                  <path
+                    d="M24,4.3086 C23.117,4.7006 22.168,4.9646 21.172,5.0836 C22.188,4.4746 22.969,3.5096 23.337,2.3596 C22.386,2.9246 21.332,3.3336 20.21,3.5556 C19.312,2.5976 18.032,1.9996 16.616,1.9996 C13.897,1.9996 11.692,4.2046 11.692,6.9236 C11.692,7.3096 11.736,7.6856 11.82,8.0456 C7.728,7.8406 4.099,5.8806 1.671,2.9006 C1.247,3.6286 1.004,4.4736 1.004,5.3766 C1.004,7.0846 1.873,8.5926 3.195,9.4756 C2.388,9.4486 1.628,9.2276 0.964,8.8596 L0.964,8.9206 C0.964,11.3066 2.661,13.2966 4.914,13.7486 C4.501,13.8626 4.065,13.9216 3.617,13.9216 C3.299,13.9216 2.991,13.8906 2.69,13.8336 C3.317,15.7896 5.135,17.2136 7.29,17.2536 C5.604,18.5736 3.481,19.3606 1.175,19.3606 C0.777,19.3606 0.385,19.3376 0,19.2926 C2.179,20.6886 4.767,21.5046 7.548,21.5046 C16.605,21.5046 21.557,14.0016 21.557,7.4946 C21.557,7.2816 21.552,7.0696 21.543,6.8586 C22.505,6.1636 23.34,5.2966 24,4.3086"
+                    fill="#1DA1F2"
+                    fillRule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+              
+            </a>
+          </div>
+          <div
+            className="grommetux-box grommetux-box--direction-column grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-medium grommetux-box--margin-small grommetux-background-color-index-light-2 grommetux-background-color-index--light"
+            id={undefined}
+            onClick={undefined}
+            role={undefined}
+            style={Object {}}
+            tabIndex={undefined}
+          >
+            <a
+              aria-label={undefined}
+              className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+              href="bitcoin:3CorySf8ZY6k8xCmnHMjgLRTNsVbUTpfEe"
+              onClick={[Function]}
+            >
+              <span
+                className="grommetux-anchor__icon"
+              >
+                <svg
+                  aria-label="social-bitcoin"
+                  className="grommetux-control-icon grommetux-control-icon-social-bitcoin grommetux-control-icon--large grommetux-control-icon--responsive"
+                  height="24px"
+                  role="img"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                >
+                  <path
+                    d="M23.6408156,14.9046858 C22.0378949,21.3339956 15.5260763,25.2467873 9.09601649,23.6434916 C2.66858193,22.0405708 -1.24420981,15.5283772 0.359460996,9.09944253 C1.96163164,2.66938268 8.47345019,-1.24378409 14.9016348,0.359136628 C21.3313196,1.96205735 25.2437363,8.47500102 23.6408156,14.9046858 L23.6408156,14.9046858 Z M17.2913894,10.2916945 C17.5302898,8.69477443 16.3144103,7.83630799 14.6518582,7.263622 L15.1911657,5.1003916 L13.8744004,4.77223165 L13.3493445,6.87845598 C13.0031826,6.79219679 12.6476448,6.71081312 12.2943571,6.63017953 L12.8231635,4.51007873 L11.5071483,4.18191878 L10.9674658,6.3443991 C10.6809353,6.27914215 10.3996553,6.21463528 10.1266263,6.14675305 L10.1281264,6.14000233 L8.31218301,5.68657903 L7.9618957,7.09297883 C7.9618957,7.09297883 8.93887476,7.31687767 8.91824756,7.33075415 C9.45155436,7.46389333 9.54793963,7.81680592 9.53181291,8.09658572 L8.91749748,10.5609732 C8.9542514,10.5703492 9.00188147,10.5838506 9.05438706,10.6048529 C9.01050739,10.5939767 8.96362739,10.5819754 8.91524724,10.5703492 L8.05415553,14.0225919 C7.98889858,14.1846091 7.82350596,14.427635 7.45071626,14.3353752 C7.46384266,14.3545022 6.49361432,14.0964747 6.49361432,14.0964747 L5.8399197,15.6037603 L7.5534772,16.0309308 C7.87226116,16.1108143 8.18466943,16.1944482 8.49220218,16.2732066 L7.94726915,18.4611896 L9.26253423,18.7893496 L9.80221671,16.624619 C10.161505,16.7221294 10.5102921,16.812139 10.8515785,16.896898 L10.3137712,19.0515025 L11.6305364,19.3796624 L12.1754695,17.1958048 C14.4208336,17.6207251 16.1092634,17.4493318 16.8199641,15.4184905 C17.3926501,13.7833164 16.7914611,12.8400909 15.6100853,12.2250254 C16.4704269,12.0266293 17.1184959,11.460694 17.2913894,10.2916945 L17.2913894,10.2916945 Z M14.2828189,14.5105188 C13.8759006,16.145693 11.1227324,15.2617238 10.2301373,15.0400752 L10.9532143,12.1413915 C11.8458094,12.3641652 14.7081142,12.8052122 14.2828189,14.5105188 L14.2828189,14.5105188 Z M14.6901123,10.268067 C14.3188228,11.7554754 12.0273287,10.9997699 11.2839995,10.8145002 L11.9395694,8.18547018 C12.6828985,8.37073991 15.0767785,8.71652674 14.6901123,10.268067 L14.6901123,10.268067 Z"
+                    fill="#F90"
+                    fillRule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+              
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grommetux-box grommetux-box--direction-column grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-none"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}
+    >
+      <p>
+        <strong>
+          OpenPGP Fingerprint: 7A27 E28E 05C3 7339 F78C A730 912D BEAA EFAB 2728
+        </strong>
+      </p>
+    </div>
+  </div>
+  <footer
+    className="grommetux-box grommetux-box--direction-row grommetux-box--justify-between grommetux-box--align-center grommetux-box--pad-none grommetux-footer"
+    id={undefined}
+    onClick={undefined}
+    role={undefined}
+    style={Object {}}
+    tabIndex={undefined}
+  >
+    <div
+      className="grommetux-box grommetux-box--direction-row grommetux-box--align-center grommetux-box--responsive grommetux-box--pad-between-medium"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}
+    >
+      <p
+        className="grommetux-paragraph grommetux-paragraph--margin-none"
+      >
+        Copyright © 
+        2018
+         Cory Solovewicz
+      </p>
+    </div>
+  </footer>
+  <span
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+  <div
+    aria-live="polite"
+    className="grommetux-app__announcer"
+  />
+</div>
+`;
