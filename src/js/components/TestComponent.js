@@ -14,7 +14,6 @@ const TestComponent = () => (
       <ul>
         <li>This</li>
         <li>Is</li>
-        <li>Just</li>
       </ul>
     </div>
     <Footer />
