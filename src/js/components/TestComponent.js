@@ -13,7 +13,6 @@ const TestComponent = () => (
     <div>
       <ul>
         <li>This</li>
-        <li>Is</li>
       </ul>
     </div>
     <Footer />
