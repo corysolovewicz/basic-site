@@ -12,7 +12,7 @@ const TestComponent = () => (
     <Hero />
     <div>
       <ul>
-        <li>This is America</li>
+        <li>This is an America</li>
       </ul>
     </div>
     <Footer />
