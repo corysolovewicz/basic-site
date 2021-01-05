@@ -11,7 +11,7 @@
     "dist": "cross-env NODE_ENV=production grommet pack"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "grommet": "^1.13.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
